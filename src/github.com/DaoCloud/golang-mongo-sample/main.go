@@ -28,7 +28,7 @@ func log() {
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "Hello World, ", GetResult())
+	fmt.Fprintln(res, "Hello World, asiainfo ", GetResult())
 }
 
 func env(res http.ResponseWriter, req *http.Request) {
